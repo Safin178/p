@@ -90,3 +90,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.btn-largeimg{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+}
