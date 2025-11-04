@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", serif;
+    max-width: 1920px;
+}
+
+.hero {
+
+    display: flex;
+    width: 1920px;
+    height: 1053px;
+    background: var(--bgfeedbc, #FEEDBC);
+   
+}
+
+.hero-down {
+    height: 790px;
+    margin-left: 160px;
+    margin-right: 160px;
+    /* justify-content: space-around;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */ */
+}
+
+.hero-left p {
+    color: var(--yellow-f-9-b-800, #F9B800);
+
+    /* Website/Heading 5 - Capital */
+    font-family: "open sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero-left h1 {
+    color: var(--dark-262626, #262626);
+
+    /* Website/Heading 1 */
+    font-family: "Segoe UI";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 112.5% */
+}
+
+.hero-img {
+    width: 714px;
+    height: 714px;
+    flex-shrink: 0;
+}
+
+.hero-btnsmall {
+    border-radius: 5000px;
+    background: var(--white-ffffff, #FFF);
+    display: flex;
+    padding: 14px 40px 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    color: var(--dark-262626, #262626);
+
+/* Website/Heading 6 */
+font-family: "Segoe UI";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.hero-btnlarge{
+    display: flex;
+width: 350px;
+padding: 22px 50px 24px 50px;
+justify-content: space-between;
+align-items: center;
+border-radius: 5000px;
+background: var(--yellow-f-9-b-800, #F9B800);
+color: var(--dark-262626, #262626);
+
+/* Website/Button */
+font-family: "Segoe UI";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
